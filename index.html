@@ -65,7 +65,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="hero-tack">Замовити послугу</button>
+          <button data-modal-open type="button" class="hero-tack">Замовити послугу</button>
         </div>
       </section>
 
@@ -129,12 +129,21 @@
           <ul class="occupation list">
             <li class="occupation-item">
               <img src="images/img.jpg" alt="Людина працює на комп'ютері" width="370" />
+              <div class="under">
+                <h3 class="under-title">Десктопні додатки</h3>
+              </div>
             </li>
             <li class="occupation-item">
               <img src="images/img1.jpg" alt="Людина працює на планшеті" width="370" />
+              <div class="under">
+                <h3 class="under-title">Мобільні додатки</h3>
+              </div>
             </li>
             <li class="occupation-item">
               <img src="images/img2.jpg" alt="Людина працює на мобільному телефоні" width="370" />
+              <div class="under">
+                <h3 class="under-title">Дизайнерські рішення</h3>
+              </div>
             </li>
           </ul>
         </div>
@@ -410,5 +419,16 @@
         </div>
       </div>
     </footer>
+
+    <div data-modal class="backdrop is-hidden">
+      <div class="modal">
+        <button data-modal-close class="close-modal">
+          <svg class="svg-img" width="18" height="18">
+            <use class="svg-modal" href="./images/icon.svg#icon-close" width="18" height="18"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
