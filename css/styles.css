@@ -294,7 +294,7 @@ header {
   margin-bottom: 50px;
 }
 .occupation-item {
-  flex-basis: calc ((100%-60px) / 3);
+  flex-basis: calc((100%-60px) / 3);
   position: relative;
 }
 .occupation-item:not(:first-child) {
